@@ -1,0 +1,292 @@
+{
+  "languages": {
+    "en-US": "English",
+    "tr-TR": "Turkish",
+    "zh-CN": "Chinese",
+    "ko-KR": "Korean",
+    "es-ES": "Spanish",
+    "de-DE": "German",
+    "ru-RU": "Russian",
+    "uk-UA": "Ukrainian",
+    "fr-FR": "French",
+    "th-TH": "Thai"
+  },
+  "common": {
+    "help_icon": "(?)",
+    "placeholder_dash": "-",
+    "language_unavailable": "ไม่พบไฟล์ภาษา",
+    "ok": "ตกลง",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก",
+    "host_only": "[เฉพาะห้อง/ห้องตัวเอง]",
+    "host_required": "ต้องเป็นหัวห้อง (Host) เท่านั้นถึงจะใช้ฟีเจอร์นี้ได้"
+  },
+  "menu": {
+    "window": {
+      "title": "DevourX by Jadis0x"
+    },
+    "header": {
+      "title": "DevourX",
+      "build": "เวอร์ชัน %s",
+      "toggle": "เปิด/ปิดเมนู: %s",
+      "steam_account": "บัญชี Steam",
+      "steam_id": "ไอดี: %llu",
+      "host": "เป็นหัวห้อง",
+      "client": "คนจอยห้อง",
+      "game_state": "สถานะเกม",
+      "scene": "ด่าน/ฉาก: %s",
+      "ping": "ปิง: %d ms",
+      "ping_host": "ปิง: 0 ms"
+    },
+    "quick_actions": {
+      "title": "เมนูด่วน",
+      "azazel_esp": "มองทะลุอาซาเซล",
+      "azazel_esp_help": "ไฮไลท์ตำแหน่งของอาซาเซล (บอส) ทะลุกำแพง",
+      "player_esp": "มองทะลุคนเล่น",
+      "player_esp_help": "แสดงกรอบตัวละครและระยะห่างของทุกคนเพื่อการประสานงานที่ไวขึ้น",
+      "interactable_esp": "มองทะลุไอเทม",
+      "interactable_esp_help": "มาร์คตำแหน่งกุญแจ ฟิวส์ และของเควสสำคัญๆ"
+    },
+    "environment": {
+      "title": "สภาพแวดล้อม",
+      "fullbright": "เปิดแมพสว่าง (เปิดไฟ)",
+      "fullbright_help": "ลบความมืดออกทั้งหมด สว่างทั่วแมพ",
+      "unlimited_uv": "ไฟฉาย UV ไม่จำกัด"
+    },
+    "status": {
+      "title": "สถานะ",
+      "auth": "การยืนยันตัวตน: %s",
+      "ok": "ผ่าน",
+      "waiting": "กำลังรอ Steam"
+    }
+  },
+  "popups": {
+    "language": {
+      "change_prompt_title": "เปลี่ยนภาษาไหม?",
+      "change_prompt_message": "คุณต้องการเปลี่ยนภาษาของ DevourX ใช่ไหม?",
+      "dont_show_again": "ไม่ต้องแสดงอีก",
+      "restart_title": "ต้องรีสตาร์ทเกม",
+      "restart_required": "กรุณารีสตาร์ทเกมเพื่อให้การเปลี่ยนภาษามีผล"
+    }
+  },
+  "tabs": {
+    "settings": {
+      "title": "ตั้งค่า",
+      "session": {
+        "title": "เซสชัน",
+        "framerate": "เฟรมเรต: %.1f",
+        "version": "เวอร์ชัน: %s",
+        "menu_toggle": "ปุ่มเปิด/ปิดเมนู: %s",
+        "discord": "ดิสคอร์ด: Jadis0x"
+      },
+      "language": {
+        "title": "ภาษา",
+        "dropdown": "เลือกภาษา",
+        "missing": "ไม่มีภาษาให้เลือก"
+      },
+      "visual": {
+        "title": "ปรับแต่งภาพ",
+        "post_fx": "ปรับแต่งแสงสี Post FX (ทดลอง)",
+        "post_fx_help": "บังคับใช้การตั้งค่าแสงสีตอนโหลดด่านถัดไป\nช่วยให้แมพสยองขวัญสว่างขึ้น แต่จะไม่สามารถปิดกลางคันได้ระหว่างเล่น",
+        "unity_logs": "แสดง Unity Logs"
+      },
+      "hint": "ต้องการซ่อน DevourX ด่วน? กดปุ่ม %s ตอนไหนก็ได้เพื่อปิดหน้าต่างเมนู",
+      "unhook_button": "ปลดโปรแกรมออกอย่างปลอดภัย & ปิด"
+    },
+    "esp": {
+      "title": "ESP (โปรแกรมมอง)",
+      "visual_tracking": "ระบบติดตาม",
+      "azazel": {
+        "title": "อาซาเซล",
+        "enable": "เปิดใช้งานมองทะลุ",
+        "offscreen": "ลูกศรชี้บอกทิศทางนอกจอ"
+      },
+      "players": {
+        "title": "ผู้เล่น",
+        "enable": "เปิดใช้งานมองทะลุคนเล่น",
+        "help": "มองเห็นผู้เล่นทะลุกำแพงพร้อมบอกระยะห่าง",
+        "offscreen": "เส้นชี้ตำแหน่งผู้เล่นนอกจอ"
+      },
+      "items": {
+        "title": "ไอเทมในแมพ",
+        "enable": "เปิดใช้งานมองทะลุของเควส",
+        "help": "ไฮไลท์กุญแจ ของทำพิธีกรรม และเป้าหมายอื่นๆ เพื่อความรวดเร็วในการเดินเกม"
+      }
+    },
+    "misc": {
+      "title": "อื่นๆ",
+      "progression": {
+        "title": "ระบบความคืบหน้า",
+        "modify_exp": "ปรับคูณ EXP",
+        "xp_slider": "ค่า EXP",
+        "modify_uv": "เปลี่ยนสีไฟ UV"
+      },
+      "world": {
+        "title": "ความสะดวกในแมพ",
+        "unlock_doors": "ปลดล็อคประตูทุกบาน",
+        "unlock_all": "ปลดล็อคทุกอย่าง",
+        "disable_long_interact": "ไม่ต้องกดค้างตอนเก็บของ/ทำเควส",
+        "auto_calm": "ทำให้บอสสงบอัตโนมัติเมื่ออยู่ใกล้",
+        "never_calm": "บอสคลั่งตลอดเวลา (ไม่สงบ)"
+      },
+      "azazel": {
+        "title": "พฤติกรรมบอส",
+        "modify_speed": "ปรับความเร็วบอส",
+        "help": "เปลี่ยนความเร็วในการเคลื่อนที่ของบอสในแมพ",
+        "speed_slider": "ความเร็วใหม่"
+      }
+    },
+    "network": {
+      "title": "เครือข่าย",
+      "ping": "ปิง: %dms",
+      "manager": {
+        "title": "จัดการห้อง",
+        "region": "ภูมิภาค (เซิร์ฟเวอร์)",
+        "lobby_size": "ขนาดห้อง (จำนวนคน)",
+        "private_lobby": "ห้องส่วนตัว",
+        "create": "สร้างห้อง"
+      },
+      "control": {
+        "title": "ควบคุมห้อง",
+        "change_room": "เปลี่ยนชื่อห้อง",
+        "new_room": "ชื่อห้องใหม่",
+        "ghost": "เปิดโหมดผี (แอบเข้าห้องเงียบๆ)",
+        "ghost_help": "เข้าห้องแบบล่องหน ไม่มีใครเห็นคุณ แต่คุณจะเห็นและได้ยินพวกเขาทุกอย่าง!",
+        "force_public": "บังคับให้ห้องเป็นสาธารณะ",
+        "force_public_help": "ถ้าเปิดไว้ จะเปลี่ยนจากห้องส่วนตัวให้กลายเป็นห้องสาธารณะที่คนอื่นมองเห็นทันที",
+        "fake_state": "ปลอมสถานะเกม",
+        "fake_state_help": "ถ้าเปิดไว้ สามารถปลอมสถานะห้องว่ากำลังเล่นอยู่ หรือยังไม่ได้เล่นได้ตามใจชอบ",
+        "walk_lobby": "เดินได้ในหน้าล็อบบี้"
+      },
+      "spoof": {
+        "name": "ปลอมชื่อ Steam",
+        "custom_name": "ตั้งชื่อ Steam เอง",
+        "id": "ปลอม Steam ID",
+        "custom_id": "ตั้ง Steam ID เอง",
+        "generate": "สุ่ม SteamID ใหม่"
+      }
+    },
+    "items": {
+      "title": "เสกไอเทม",
+      "spawn": "เสกของ",
+      "items_section": {
+        "title": "ไอเทมทั่วไป",
+        "hay": "ฟาง",
+        "first_aid": "กล่องพยาบาล",
+        "spade": "พลั่ว",
+        "cake": "เค้ก",
+        "battery": "ถ่าน/แบตเตอรี่",
+        "gasoline": "น้ำมันถัง",
+        "fuse": "ฟิวส์",
+        "food": "อาหาร",
+        "bleach": "น้ำยาฟอกขาว",
+        "bone": "กระดูก",
+        "salt": "เกลือ",
+        "ritual_book_inactive": "หนังสือทำพิธี (ยังไม่เปิด)",
+        "ritual_book_active": "หนังสือทำพิธี (เปิดแล้ว)",
+        "matchbox": "กล่องไม้ขีด",
+        "egg_1": "ไข่ใบที่ 1",
+        "egg_2": "ไข่ใบที่ 2",
+        "egg_3": "ไข่ใบที่ 3",
+        "egg_4": "ไข่ใบที่ 4",
+        "egg_5": "ไข่ใบที่ 5",
+        "egg_6": "ไข่ใบที่ 6",
+        "egg_7": "ไข่ใบที่ 7",
+        "egg_8": "ไข่ใบที่ 8",
+        "egg_9": "ไข่ใบที่ 9",
+        "egg_10": "ไข่ใบที่ 10",
+        "head_dirty_gardener": "หัวคนสวน (สกปรก)",
+        "head_clean_gardener": "หัวคนสวน (สะอาด)",
+        "head_dirty_butler": "หัวพ่อบ้าน (สกปรก)",
+        "head_clean_butler": "หัวพ่อบ้าน (สะอาด)",
+        "head_dirty_bridesmaid_01": "หัวเพื่อนเจ้าสาว 1 (สกปรก)",
+        "head_clean_bridesmaid_01": "หัวเพื่อนเจ้าสาว 1 (สะอาด)",
+        "head_dirty_bridesmaid_02": "หัวเพื่อนเจ้าสาว 2 (สกปรก)",
+        "head_clean_bridesmaid_02": "หัวเพื่อนเจ้าสาว 2 (สะอาด)",
+        "head_dirty_cook": "หัวแม่ครัว (สกปรก)",
+        "head_clean_cook": "หัวแม่ครัว (สะอาด)",
+        "head_dirty_groomsman_01": "หัวเพื่อนเจ้าบ่าว 1 (สกปรก)",
+        "head_clean_groomsman_01": "หัวเพื่อนเจ้าบ่าว 1 (สะอาด)",
+        "head_dirty_groomsman_02": "หัวเพื่อนเจ้าบ่าว 2 (สกปรก)",
+        "head_clean_groomsman_02": "หัวเพื่อนเจ้าบ่าว 2 (สะอาด)",
+        "head_dirty_maid": "หัวคนใช้ (สกปรก)",
+        "head_clean_maid": "หัวคนใช้ (สะอาด)",
+        "head_dirty_photographer": "หัวช่างภาพ (สกปรก)",
+        "head_clean_photographer": "หัวช่างภาพ (สะอาด)",
+        "head_dirty_priest": "หัวบาทหลวง (สกปรก)",
+        "head_clean_priest": "หัวบาทหลวง (สะอาด)",
+        "coin": "เหรียญ",
+        "music_box_idle": "กล่องดนตรี (วางอยู่)",
+        "music_box_armed": "กล่องดนตรี (ไขลานแล้ว)",
+        "survival_doll_head": "หัวตุ๊กตา" 
+      },
+      "animals_section": {
+        "title": "สัตว์",
+        "rat": "หนู",
+        "goat": "แพะ",
+        "pig": "หมู"
+      },
+      "prefabs_section": {
+        "title": "โมเดลสำเร็จรูป (Prefabs)"
+      }
+    },
+    "player": {
+      "title": "จัดการผู้เล่น",
+      "local_options": "ตั้งค่าผู้เล่นตัวเอง:",
+      "modify_rank": "ปรับแรงก์ผู้เล่น",
+      "rank_slider": "แรงก์ใหม่",
+      "modify_speed": "ปรับความเร็วผู้เล่น",
+      "speed_slider": "ความเร็วใหม่",
+      "fly": "บิน (Noclip)",
+      "fly_speed": "ความเร็วในการบิน",
+      "fullbright": "เปิดแมพสว่าง",
+      "unlimited_uv": "ไฟ UV ไม่จำกัด",
+      "list_title": "รายชื่อคนในห้อง:",
+      "table": {
+        "id": "ไอดี",
+        "name": "ชื่อ",
+        "null": "ว่างเปล่า"
+      },
+      "actions": {
+        "kill": "ฆ่าตาย",
+        "revive": "ชุบชีวิต",
+        "jumpscare": "ส่งจัมพ์สแกร์แกล้ง",
+        "teleport": "วาร์ปไปหา",
+        "teleport_azazel": "วาร์ปไปหาบอส",
+        "shoot": "ยิง"
+      },
+      "no_players": "ไม่พบผู้เล่นอื่น"
+    },
+    "map": {
+      "title": "จัดการแมพ",
+      "mouse_follower": "[ล็อบบี้] ระบบเมาส์ตามตำแหน่งหน้าจออัตโนมัติ",
+      "offset_x": "ระยะเลื่อนแกน X",
+      "offset_y": "ระยะเลื่อนแกน Y",
+      "lerp_speed": "ความสมูทในการเลื่อน (Lerp)",
+      "force_start": "[บังคับ] กดเริ่มเกมทันที",
+      "force_progress": "[บังคับ] ปรับสถานะทำเควสไปที่:",
+      "map_name": "ชื่อแมพ",
+      "load_map": "[บังคับ] โหลดแมพที่เลือก",
+      "progress_slider": "ความคืบหน้าของแมพ",
+      "control.azazel": "[เฉพาะหัวห้อง] สิงบอส/ควบคุมบอส (มุมมองบุคคลที่ 3)",
+      "control.azazel.experimental": "ฟีเจอร์ทดลอง: ระบบยังไม่เสถียร อาจทำให้เกมหลุดซิงค์ได้"
+    },
+    "translator": {
+      "title": "ระบบแปลภาษา",
+      "live_title": "แปลภาษาแชทสดอัตโนมัติ",
+      "enable": "เปิดใช้งานระบบแปลภาษา",
+      "my_language": "ภาษาของฉัน",
+      "my_language_help": "(ข้อความที่คนอื่นพิมพ์มา จะถูกแปลเป็นภาษานี้)",
+      "target_language": "ภาษาปลายทาง",
+      "target_language_help": "(ข้อความที่คุณพิมพ์ไป จะถูกแปลเป็นภาษานี้เพื่อส่งให้คนอื่น)"
+    },
+    "server_browser": {
+      "title": "ค้นหาเซิร์ฟเวอร์",
+      "fix_button": "ค้างหน้าโหลด? กดแก้ตรงนี้",
+      "search_placeholder": "ค้นหาห้อง...",
+      "unknown_name": "*<ไม่ระบุชื่อ>",
+      "session_id": "เซสชันไอดี (Session ID):",
+      "join_button": "เข้าร่วมห้อง"
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "languages": {
+    "en-US": "Anglais",
+    "tr-TR": "Turc",
+    "zh-CN": "Chinois",
+    "ko-KR": "Coréen",
+    "es-ES": "Espagnol",
+    "de-DE": "Allemand",
+    "ru-RU": "Russe",
+    "uk-UA": "Ukrainien",
+    "fr-FR": "Français"
+  },
+  "common": {
+    "help_icon": "(?)",
+    "placeholder_dash": "-",
+    "language_unavailable": "Aucun fichier de localisation trouvé.",
+    "ok": "OK",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "host_only": "[Hôte Uniquement]",
+    "host_required": "Vous devez être l'hôte pour utiliser cette fonctionnalité."
+  },
+  "menu": {
+    "window": {
+      "title": "DevourX par Jadis0x"
+    },
+    "header": {
+      "title": "DevourX",
+      "build": "Build %s",
+      "toggle": "Afficher le Menu : %s",
+      "steam_account": "Compte Steam",
+      "steam_id": "ID : %llu",
+      "host": "Hébergeur du Salon",
+      "client": "Client",
+      "game_state": "État du Jeu",
+      "scene": "Scène : %s",
+      "ping": "Ping : %d ms",
+      "ping_host": "Ping : 0 ms"
+    },
+    "quick_actions": {
+      "title": "Actions Rapides",
+      "azazel_esp": "ESP Azazel",
+      "azazel_esp_help": "Met en évidence la position de l'Azazel principal, même à travers les murs.",
+      "player_esp": "ESP Joueur",
+      "player_esp_help": "Affiche le contour de chaque joueur et la distance pour une coordination rapide.",
+      "interactable_esp": "ESP Interactible",
+      "interactable_esp_help": "Affiche des marqueurs pour les clés, fusibles et autres objets importants."
+    },
+    "environment": {
+      "title": "Environnement",
+      "fullbright": "Pleine Lumière",
+      "fullbright_help": "Supprime presque toute l'obscurité.",
+      "unlimited_uv": "Lumière UV Illimitée"
+    },
+    "status": {
+      "title": "Statut",
+      "auth": "Auth : %s",
+      "ok": "OK",
+      "waiting": "En attente de Steam"
+    }
+  },
+  "popups": {
+    "language": {
+      "change_prompt_title": "Changer de langue ?",
+      "change_prompt_message": "Voulez-vous changer la langue utilisée par DevourX ?",
+      "dont_show_again": "Ne plus afficher",
+      "restart_title": "Redémarrage Requis",
+      "restart_required": "Redémarrez le jeu pour que le changement de langue prenne effet."
+    }
+  },
+  "tabs": {
+    "settings": {
+      "title": "Paramètres",
+      "session": {
+        "title": "Session",
+        "framerate": "Images/s : %.1f",
+        "version": "Version : %s",
+        "menu_toggle": "Touche Menu : %s",
+        "discord": "Discord : Jadis0x"
+      },
+      "language": {
+        "title": "Langue",
+        "dropdown": "Langue",
+        "missing": "Aucune langue disponible"
+      },
+      "visual": {
+        "title": "Surcharges Visuelles",
+        "post_fx": "Surcharge Post FX (Expérimental)",
+        "post_fx_help": "Force des paramètres de post-traitement personnalisés au prochain chargement de niveau.\nIdéal pour éclaircir les cartes d'horreur mais ne peut pas être désactivé en cours de partie.",
+        "unity_logs": "Afficher les Logs Unity"
+      },
+      "hint": "Besoin de cacher DevourX rapidement ? Appuyez sur %s à tout moment pour basculer le menu.",
+      "unhook_button": "Décrocher & Fermer en Toute Sécurité"
+    },
+    "esp": {
+      "title": "ESP",
+      "visual_tracking": "Suivi Visuel",
+      "azazel": {
+        "title": "Azazel",
+        "enable": "Activer l'ESP",
+        "offscreen": "Indicateur Hors Écran"
+      },
+      "players": {
+        "title": "Joueurs",
+        "enable": "ESP Joueur",
+        "help": "Affiche les joueurs à travers les murs ainsi que leur distance.",
+        "offscreen": "Ligne Hors Écran Joueur"
+      },
+      "items": {
+        "title": "Objets du Monde",
+        "enable": "ESP Objets Interactibles",
+        "help": "Met en évidence les clés, les pièces de rituel et les autres objectifs pour un repérage rapide."
+      }
+    },
+    "misc": {
+      "title": "Divers",
+      "progression": {
+        "title": "Progression",
+        "modify_exp": "Modifier le gain d'EXP",
+        "xp_slider": "EXP",
+        "modify_uv": "Modifier la couleur des UV"
+      },
+      "world": {
+        "title": "Qualité de Vie du Monde",
+        "unlock_doors": "Déverrouiller les Portes",
+        "unlock_all": "Tout Déverrouiller",
+        "disable_long_interact": "Désactiver l'interaction longue",
+        "auto_calm": "Calme Auto à Proximité",
+        "never_calm": "Ne Jamais Calmer"
+      },
+      "azazel": {
+        "title": "Comportement d'Azazel",
+        "modify_speed": "Modifier la Vitesse d'Azazel",
+        "help": "Modifie la vitesse à laquelle Azazel se déplace sur la carte.",
+        "speed_slider": "Nouvelle Vitesse"
+      }
+    },
+    "network": {
+      "title": "Réseau",
+      "ping": "Ping : %d ms",
+      "manager": {
+        "title": "Gestionnaire de Salon",
+        "region": "Région",
+        "lobby_size": "Taille du Salon",
+        "private_lobby": "Salon Privé",
+        "create": "Créer un Salon"
+      },
+      "control": {
+        "title": "Contrôle du Salon",
+        "change_room": "Changer le Nom du Salon",
+        "new_room": "Nouveau Nom du Salon",
+        "ghost": "Mode Fantôme (Rejoindre Furtivement)",
+        "ghost_help": "Rejoignez en étant invisible. Personne ne vous voit, mais vous les voyez et les entendez !",
+        "force_public": "Rendre le Salon Public",
+        "force_public_help": "Si activé, le salon privé actuel sera rendu public de force et visible par tous.",
+        "fake_state": "Faux État de Jeu",
+        "fake_state_help": "Si activé, le salon actuel apparaîtra comme si le jeu était toujours en cours ou non.",
+        "walk_lobby": "Marcher dans le Salon"
+      },
+      "spoof": {
+        "name": "Usurper le Nom Steam",
+        "custom_name": "Nom Steam Personnalisé",
+        "id": "Usurper l'ID Steam",
+        "custom_id": "ID Steam Personnalisé",
+        "generate": "Générer un SteamID Aléatoire"
+      }
+    },
+    "items": {
+      "title": "Objets",
+      "spawn": "Faire Apparaître",
+      "items_section": {
+        "title": "Objets",
+        "hay": "Foin",
+        "first_aid": "Premiers Secours",
+        "spade": "Bêche",
+        "cake": "Gâteau",
+        "battery": "Batterie",
+        "gasoline": "Essence",
+        "fuse": "Fusible",
+        "food": "Nourriture",
+        "bleach": "Eau de Javel",
+        "bone": "Os",
+        "salt": "Sel",
+        "ritual_book_inactive": "Livre de Rituel (inactif)",
+        "ritual_book_active": "Livre de Rituel (actif)",
+        "matchbox": "Boîte d'allumettes",
+        "egg_1": "Œuf-1",
+        "egg_2": "Œuf-2",
+        "egg_3": "Œuf-3",
+        "egg_4": "Œuf-4",
+        "egg_5": "Œuf-5",
+        "egg_6": "Œuf-6",
+        "egg_7": "Œuf-7",
+        "egg_8": "Œuf-8",
+        "egg_9": "Œuf-9",
+        "egg_10": "Œuf-10",
+        "head_dirty_gardener": "Tête (Sale/Jardinier)",
+        "head_clean_gardener": "Tête (Propre/Jardinier)",
+        "head_dirty_butler": "Tête (Sale/Majordome)",
+        "head_clean_butler": "Tête (Propre/Majordome)",
+        "head_dirty_bridesmaid_01": "Tête (Sale/Demoiselle d'honneur_01)",
+        "head_clean_bridesmaid_01": "Tête (Propre/Demoiselle d'honneur_01)",
+        "head_dirty_bridesmaid_02": "Tête (Sale/Demoiselle d'honneur_02)",
+        "head_clean_bridesmaid_02": "Tête (Propre/Demoiselle d'honneur_02)",
+        "head_dirty_cook": "Tête (Sale/Cuisinier)",
+        "head_clean_cook": "Tête (Propre/Cuisinier)",
+        "head_dirty_groomsman_01": "Tête (Sale/Garçon d'honneur_01)",
+        "head_clean_groomsman_01": "Tête (Propre/Garçon d'honneur_01)",
+        "head_dirty_groomsman_02": "Tête (Sale/Garçon d'honneur_02)",
+        "head_clean_groomsman_02": "Tête (Propre/Garçon d'honneur_02)",
+        "head_dirty_maid": "Tête (Sale/Servante)",
+        "head_clean_maid": "Tête (Propre/Servante)",
+        "head_dirty_photographer": "Tête (Sale/Photographe)",
+        "head_clean_photographer": "Tête (Propre/Photographe)",
+        "head_dirty_priest": "Tête (Sale/Prêtre)",
+        "head_clean_priest": "Tête (Propre/Prêtre)",
+        "coin": "Pièce",
+        "music_box_idle": "Boîte à Musique (En veille)",
+        "music_box_armed": "Boîte à Musique (Armée)",
+        "survival_doll_head": "Tête de Poupée"
+      },
+      "animals_section": {
+        "title": "Animaux",
+        "rat": "Rat",
+        "goat": "Chèvre",
+        "pig": "Cochon"
+      },
+      "prefabs_section": {
+        "title": "Préfabriqués"
+      }
+    },
+    "player": {
+      "title": "Gestionnaire de Joueurs",
+      "local_options": "Options du Joueur Local :",
+      "modify_rank": "Modifier le Rang",
+      "rank_slider": "Nouveau Rang",
+      "modify_speed": "Modifier la Vitesse",
+      "speed_slider": "Nouvelle Vitesse",
+      "fly": "Voler",
+      "fly_speed": "Vitesse de Vol",
+      "fullbright": "Pleine Lumière",
+      "unlimited_uv": "Lumière UV Illimitée",
+      "list_title": "Liste des Joueurs :",
+      "table": {
+        "id": "ID",
+        "name": "Nom",
+        "null": "nul"
+      },
+      "actions": {
+        "kill": "Tuer",
+        "revive": "Réanimer",
+        "jumpscare": "Frayeur (Jumpscare)",
+        "teleport": "TP",
+        "teleport_azazel": "TP Azazel",
+        "shoot": "Tirer"
+      },
+      "no_players": "Aucun joueur trouvé."
+    },
+    "map": {
+      "title": "Gestionnaire de Cartes",
+      "mouse_follower": "[Salon] Suivi Dynamique de Souris",
+      "offset_x": "Décalage X",
+      "offset_y": "Décalage Y",
+      "lerp_speed": "Vitesse de Lissage (Lerp)",
+      "force_start": "[FORCE] Démarrer le Salon",
+      "force_progress": "[FORCE] Régler la Progression sur :",
+      "map_name": "Nom de la Carte",
+      "load_map": "[FORCE] Charger la Carte",
+      "progress_slider": "Progression de la Carte",
+      "control.azazel": "[Hôte Uniquement] Posséder Azazel (3ème Personne)",
+      "control.azazel.experimental": "EXPÉRIMENTAL : Cette fonctionnalité est instable et peut provoquer une désynchronisation"
+    },
+    "translator": {
+      "title": "Traducteur",
+      "live_title": "Traducteur Automatique en Direct",
+      "enable": "Activer le Système de Traduction",
+      "my_language": "Ma Langue",
+      "my_language_help": "(Les messages entrants seront traduits dans cette langue)",
+      "target_language": "Langue Cible",
+      "target_language_help": "(Vos messages seront traduits dans cette langue)"
+    },
+    "server_browser": {
+      "title": "Navigateur de Serveurs",
+      "fix_button": "Bloqué au chargement ? Réparez-le",
+      "search_placeholder": "Rechercher des serveurs...",
+      "unknown_name": "*<inconnu>",
+      "session_id": "ID de Session :",
+      "join_button": "Rejoindre"
+    }
+  }
+}
