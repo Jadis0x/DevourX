@@ -8,7 +8,8 @@
     "de-DE": "Allemand",
     "ru-RU": "Russe",
     "uk-UA": "Ukrainien",
-    "fr-FR": "Français"
+    "fr-FR": "Français",
+	"th-TH": "Thaï"
   },
   "common": {
     "help_icon": "(?)",

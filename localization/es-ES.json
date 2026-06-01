@@ -7,7 +7,8 @@
     "es-ES": "Español",
     "de-DE": "Alemán",
     "ru-RU": "Ruso",
-    "uk-UA": "Ucraniano"
+    "uk-UA": "Ucraniano",
+	"fr-FR": "Francés"
   },
   "common": {
     "help_icon": "(?)",
@@ -15,7 +16,9 @@
     "language_unavailable": "No se encontraron archivos de localización.",
     "ok": "Aceptar",
     "cancel": "Cancelar",
-    "save": "Guardar"
+    "save": "Guardar",
+	"host_only": "[Solo Host]",
+    "host_required": "Debes ser el host para usar esta función."
   },
   "menu": {
     "window": {
@@ -263,7 +266,18 @@
       "force_progress": "[FUERZA] Establecer progreso en:",
       "map_name": "Nombre del mapa",
       "load_map": "[FUERZA] Cargar mapa",
-      "progress_slider": "Progreso del mapa"
+      "progress_slider": "Progreso del mapa",
+	  "control.azazel": "[Solo Host] Poseer a Azazel (3ª persona)",
+	  "control.azazel.experimental": "EXPERIMENTAL: Esta función es inestable y puede causar desincronización (desync)."
+    },
+	"translator": {
+      "title": "Traductor",
+      "live_title": "Traductor Automático en Vivo",
+      "enable": "Activar Sistema de Traducción",
+      "my_language": "Mi Idioma",
+      "my_language_help": "(Los mensajes entrantes se traducirán a este idioma)",
+      "target_language": "Idioma de Destino",
+      "target_language_help": "(Tus mensajes se traducirán a este idioma)"
     },
     "server_browser": {
       "title": "Navegador de servidor",

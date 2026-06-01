@@ -7,7 +7,9 @@
     "es-ES": "İspanyolca",
     "de-DE": "Almanca",
     "ru-RU": "Rusça",
-    "uk-UA": "Ukraynaca"
+    "uk-UA": "Ukraynaca",
+	"fr-FR": "Fransızca",
+	"th-TH": "Tayca"
   },
   "common": {
     "help_icon": "(?)",
@@ -15,7 +17,9 @@
     "language_unavailable": "Yerelleştirme dosyası bulunamadı.",
     "ok": "Tamam",
     "cancel": "İptal",
-    "save": "Kaydet"
+    "save": "Kaydet",
+	"host_only": "[Sadece Host]",
+    "host_required": "Bu özelliği kullanabilmek için host (lobi sahibi) olmalısın."
   },
   "menu": {
     "window": {
@@ -263,7 +267,18 @@
       "force_progress": "[ZORLA] İlerlemeyi Ayarla:",
 	  "map_name": "Harita Adı",
       "load_map": "[ZORLA] Haritayı Yükle",
-      "progress_slider": "Harita İlerlemesi"
+      "progress_slider": "Harita İlerlemesi",
+	  "control.azazel": "[Sadece Host] Azazel'i Ele Geçir (3. Şahıs)",
+	  "control.azazel.experimental": "DENEYSEL: Bu özellik kararsızdır ve senkronizasyon sorunlarına (desync) neden olabilir."
+    },
+	"translator": {
+      "title": "Çevirmen",
+      "live_title": "Canlı Otomatik Çeviri",
+      "enable": "Çeviri Sistemini Aktifleştir",
+      "my_language": "Benim Dilim",
+      "my_language_help": "(Gelen mesajlar bu dile çevrilecektir)",
+      "target_language": "Hedef Dil",
+      "target_language_help": "(Senin mesajların bu dile çevrilecektir)"
     },
     "server_browser": {
       "title": "Sunucu Tarayıcısı",

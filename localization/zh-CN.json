@@ -7,7 +7,9 @@
     "es-ES": "西班牙语",
     "de-DE": "德语",
     "ru-RU": "俄语",
-    "uk-UA": "乌克兰语"
+    "uk-UA": "乌克兰语",
+	"fr-FR": "法语",
+	"th-TH": "泰语"
   },
   "common": {
     "help_icon": "(?)",
@@ -15,7 +17,9 @@
     "language_unavailable": "未找到本地化文件。",
     "ok": "确定",
     "cancel": "取消",
-    "save": "保存"
+    "save": "保存",
+	"host_only": "[仅限房主]",
+    "host_required": "您必须是房主才能使用此功能。"
   },
   "menu": {
     "window": {
@@ -263,7 +267,18 @@
       "force_progress": "[强制] 设置进度为：",
 	  "map_name": "地图名称",
       "load_map": "[强制] 加载地图",
-      "progress_slider": "地图进度"
+      "progress_slider": "地图进度",
+	  "control.azazel": "[仅限房主] 附身阿撒兹勒 (第三人称)",
+      "control.azazel.experimental": "实验性功能：该功能不稳定，可能会导致同步脱节 (desync)。"
+    },
+	"translator": {
+      "title": "翻译器",
+      "live_title": "实时自动翻译器",
+      "enable": "启用翻译系统",
+      "my_language": "我的语言",
+      "my_language_help": "(收到的消息将被翻译成此语言)",
+      "target_language": "目标语言",
+      "target_language_help": "(你的消息将被翻译成此语言)"
     },
     "server_browser": {
       "title": "服务器浏览器",

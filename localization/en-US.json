@@ -7,7 +7,9 @@
     "es-ES": "Spanish",
     "de-DE": "German",
     "ru-RU": "Russian",
-    "uk-UA": "Ukrainian"
+    "uk-UA": "Ukrainian",
+	"fr-FR": "French",
+	"th-TH": "Thai"
   },
   "common": {
     "help_icon": "(?)",
@@ -15,7 +17,9 @@
     "language_unavailable": "No localization files found.",
     "ok": "OK",
     "cancel": "Cancel",
-    "save": "Save"
+    "save": "Save",
+	"host_only": "[Host Only]",
+    "host_required": "You must be the host to use this feature."
   },
   "menu": {
     "window": {
@@ -263,8 +267,19 @@
       "force_progress": "[FORCE] Set Progress To:",
 	  "map_name": "Map Name",
       "load_map": "[FORCE] Load Map",
-      "progress_slider": "Map Progress"
+      "progress_slider": "Map Progress",
+	  "control.azazel": "[Host Only] Possess Azazel (3rd Person)",
+	  "control.azazel.experimental": "EXPERIMENTAL: This feature is unstable and may cause desync"
     },
+	"translator": {
+      "title": "Translator",
+      "live_title": "Live Auto-Translator",
+      "enable": "Enable Translator System",
+      "my_language": "My Language",
+      "my_language_help": "(Incoming messages will be translated to this language)",
+      "target_language": "Target Language",
+      "target_language_help": "(Your messages will be translated to this language)"
+	},
     "server_browser": {
       "title": "Server Browser",
       "fix_button": "Stuck on Loading? Fix It",

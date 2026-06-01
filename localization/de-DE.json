@@ -7,7 +7,9 @@
     "es-ES": "Spanisch",
     "de-DE": "Deutsch",
     "ru-RU": "Russisch",
-    "uk-UA": "Ukrainisch"
+    "uk-UA": "Ukrainisch",
+	"fr-FR": "Französisch",
+	"th-TH": "Thailändisch"
   },
   "common": {
     "help_icon": "(?)",
@@ -15,7 +17,9 @@
     "language_unavailable": "Keine Lokalisierungsdateien gefunden.",
     "ok": "OK",
     "cancel": "Abbrechen",
-    "save": "Speichern"
+    "save": "Speichern",
+	"host_only": "[Nur für Host]",
+    "host_required": "Du musst der Host sein, um diese Funktion zu nutzen."
   },
   "menu": {
     "window": {
@@ -263,7 +267,18 @@
       "force_progress": "[FORCE] Stellen Sie den Fortschritt ein auf:",
       "map_name": "Kartenname",
       "load_map": "[FORCE] Karte laden",
-      "progress_slider": "Kartenfortschritt"
+      "progress_slider": "Kartenfortschritt",
+	  "control.azazel": "[Nur Host] Azazel übernehmen (3. Person)",
+	  "control.azazel.experimental": "EXPERIMENTELL: Diese Funktion ist instabil und kann Desyncs verursachen."
+    },
+	"translator": {
+      "title": "Übersetzer",
+      "live_title": "Live-Auto-Übersetzer",
+      "enable": "Übersetzersystem aktivieren",
+      "my_language": "Meine Sprache",
+      "my_language_help": "(Eingehende Nachrichten werden in diese Sprache übersetzt)",
+      "target_language": "Zielsprache",
+      "target_language_help": "(Ihre Nachrichten werden in diese Sprache übersetzt)"
     },
     "server_browser": {
       "title": "Serverbrowser",

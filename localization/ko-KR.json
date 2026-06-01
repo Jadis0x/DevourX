@@ -7,7 +7,9 @@
     "es-ES": "스페인어",
     "de-DE": "독일어",
     "ru-RU": "러시아어",
-    "uk-UA": "우크라이나어"
+    "uk-UA": "우크라이나어",
+	"fr-FR": "프랑스어",
+	"th-TH": "태국어"
   },
   "common": {
     "help_icon": "(?)",
@@ -15,7 +17,9 @@
     "language_unavailable": "로컬라이즈 파일을 찾을 수 없습니다.",
     "ok": "확인",
     "cancel": "취소",
-    "save": "저장"
+    "save": "저장",
+	"host_only": "[호스트 전용]",
+    "host_required": "이 기능을 사용하려면 호스트여야 합니다."
   },
   "menu": {
     "window": {
@@ -263,7 +267,18 @@
       "force_progress": "[강제] 진행도 설정:",
 	   "map_name": "맵 이름",
       "load_map": "[강제] 맵 불러오기",
-      "progress_slider": "맵 진행도"
+      "progress_slider": "맵 진행도",
+	  "control.azazel": "[호스트 전용] 아자젤 빙의 (3인칭)",
+      "control.azazel.experimental": "실험적 기능: 이 기능은 불안정하며 데싱크(desync)를 유발할 수 있습니다."
+    },
+	"translator": {
+      "title": "번역기",
+      "live_title": "실시간 자동 번역기",
+      "enable": "번역 시스템 활성화",
+      "my_language": "내 언어",
+      "my_language_help": "(수신된 메시지가 이 언어로 번역됩니다)",
+      "target_language": "대상 언어",
+      "target_language_help": "(당신의 메시지가 이 언어로 번역됩니다)"
     },
     "server_browser": {
       "title": "서버 브라우저",
