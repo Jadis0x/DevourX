@@ -48,8 +48,8 @@
 </p>
 
 <p align="center">
-  <img src="img/Screenshot2.jpg" width="32%">
-  <img src="img/Screenshot3.png" width="32%">
+  <img src="img/Screenshot2.png" width="49%">
+  <img src="img/Screenshot3.png" width="49%">
 </p>
 
 **Controlling Azazel:**<br>
