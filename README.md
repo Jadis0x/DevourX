@@ -52,8 +52,9 @@
   <img src="img/Screenshot3.png" width="49%">
 </p>
 
-**Controlling Azazel:**<br>
-[![DevourX Video](https://img.youtube.com/vi/EcVWj-jcS3I/0.jpg)](https://www.youtube.com/watch?v=EcVWj-jcS3I)
+
+### Demo Video:
+[![DevourX Video](https://img.youtube.com/vi/5AxVZ0n_Nic/0.jpg)](https://www.youtube.com/watch?v=5AxVZ0n_Nic)
 
 ---
 
