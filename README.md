@@ -6,7 +6,7 @@
 <h1 align="center">👻 DevourX</h1>
 <p align="center"><i>The ultimate internal mod menu for the co-op horror game Devour.</i></p>
 
----
+
 
 ### Features
 
@@ -22,6 +22,7 @@
 * Unlock All Doors/Robes
 * Auto-Calm (Automatically calms Azazel when nearby)
 * Play as Azazel
+* BHOP
 * Live Chat Translator (powered by Google API)
 
 **Lobby & Steam**
