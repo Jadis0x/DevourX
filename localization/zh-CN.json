@@ -239,6 +239,7 @@
       "speed_slider": "新速度",
       "fly": "飞行",
       "fly_speed": "飞行速度",
+	  "bhop": "兔子跳 [实验性]",
       "fullbright": "全亮",
       "unlimited_uv": "无限 UV 光",
       "list_title": "玩家列表：",

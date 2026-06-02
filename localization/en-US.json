@@ -239,6 +239,7 @@
       "speed_slider": "New Speed",
       "fly": "Fly",
       "fly_speed": "Fly Speed",
+	  "bhop": "Bunny Hop [EXPERIMENTAL]",
       "fullbright": "Fullbright",
       "unlimited_uv": "Unlimited UV Light",
       "list_title": "Player List:",

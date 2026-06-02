@@ -239,6 +239,7 @@
       "speed_slider": "새 속도",
       "fly": "비행",
       "fly_speed": "비행 속도",
+	  "bhop": "버니 홉 [실험적]",
       "fullbright": "풀브라이트",
       "unlimited_uv": "무제한 UV 빛",
       "list_title": "플레이어 목록:",
