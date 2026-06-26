@@ -6,7 +6,13 @@
 <h1 align="center">👻 DevourX</h1>
 <p align="center"><i>The ultimate internal mod menu for the co-op horror game Devour.</i></p>
 
+📢 IMPORTANT ANNOUNCEMENT
 
+DevourX is currently being completely rewritten with a new loader infrastructure. While the old system relied on the [Il2CppInspector](https://github.com/jadis0x/Il2CppInspectorPro) C++ Scaffold, I have now developed and started testing a new C++ loader that operates similarly to MelonLoader, but delivers pure C++ performance instead of C#.
+
+Thanks to this new infrastructure, mods will no longer break when the game receives an update. I will be releasing this new loader system completely free and open for you to create your own mods (the DevourX mod itself will remain a paid project).
+
+The loader generates a C++ SDK for developers, featuring built-in Detours, optional SafeHook, and ImGui. I will be sharing all the details soon on luridlane.com.
 
 ### Features
 
