@@ -1,54 +1,78 @@
 <p align="right">
-  <a href="https://www.buymeacoffee.com/Jadis0x"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black"></a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Jadis0x.DevourX">
+  <a href="https://www.buymeacoffee.com/Jadis0x">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black">
+  </a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Jadis0x.DevourModMenu">
 </p>
 
-<h1 align="center">👻 DevourX</h1>
-<p align="center"><i>The ultimate internal mod menu for the co-op horror game Devour.</i></p>
+<h1 align="center">DevourModMenu</h1>
 
-📢 IMPORTANT ANNOUNCEMENT
+<p align="center">
+  <i>A native C++ mod menu for DEVOUR, built with <a href="https://github.com/Jadis0x/URKit">URKit.</a></i>
+</p>
 
-DevourX is currently being completely rewritten with a new loader infrastructure. While the old system relied on the [Il2CppInspector](https://github.com/jadis0x/Il2CppInspectorPro) C++ Scaffold, I have now developed and started testing a new C++ loader that operates similarly to MelonLoader, but delivers pure C++ performance instead of C#.
 
-Thanks to this new infrastructure, mods will no longer break when the game receives an update. I will be releasing this new loader system completely free and open for you to create your own mods (the DevourX mod itself will remain a paid project).
 
-The loader generates a C++ SDK for developers, featuring built-in Detours, optional SafeHook, and ImGui. I will be sharing all the details soon on luridlane.com.
+## About
 
-### Features
+DevourModMenu is the new version of the project previously known as DevourX.
 
-**Visuals & ESP**
+The old Il2CppInspector scaffold-based system has been replaced with **URKit**, a custom C++ modding framework built for loading mods, accessing game classes, installing hooks, rendering ImGui menus, and handling updates more reliably.
+
+The project is still being migrated to the new system. Some features from DevourX are not available yet and will be added back gradually as development continues.
+
+
+## Current Status
+
+DevourModMenu is currently in active development.
+
+The main focus right now is:
+
+* Improving stability
+* Migrating existing features to URKit
+
+Not every feature listed below is available in the current build yet.
+
+## Features
 * Fullbright
-* Advanced ESP
-* Unlimited UV Light & Color Customizer
-
-**Gameplay**
-* Speed Hacks & Fly Mode
-* Instant Win & Item Spawner
+* ESP
+* Unlimited UV Light
+* UV Light Color Customization
+* Speed Modifier
+* Fly Mode
+* Instant Win
+* Item Spawner
 * Disable Long Interactions
-* Unlock All Doors/Robes
-* Auto-Calm (Automatically calms Azazel when nearby)
+* Unlock Doors
+* Unlock Robes
 * Play as Azazel
-* BHOP
-* Live Chat Translator (powered by Google API)
-
-**Lobby & Steam**
-* Force Start Lobbies
-* Bypass Player Limits
-* Change Room Name
-* SteamID & Name Hook Spoofing
+* Bunny Hop
+* Force Start
+* Player Limit Modification
+* Room Name Modification
+* Walk in Lobby
 * EXP Modifier
-* Walk In Lobby
+* Steam Name Modification
+* SteamID Modification
+* and more..
 
----
+Some of these features are still being ported from the old DevourX version and may not be available yet.
 
-### Requirements
-* Windows 10/11 (64-bit)
-* A legitimate copy of Devour (Steam or other supported platforms)
-* [Microsoft Visual C++ Redistributable (x64)](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+## Planned Features
 
----
+The following features are planned for future updates:
 
-### Showcase
+* Improved configuration system
+* More stable game update compatibility
+
+## Requirements
+
+* Windows 10 or Windows 11, 64-bit
+* A legitimate Steam copy of DEVOUR
+* [Microsoft Visual C++ Redistributable — x64](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+
+## Showcase
+
 <p align="center">
   <img src="img/Screenshot.png" width="100%">
 </p>
@@ -58,50 +82,45 @@ The loader generates a C++ SDK for developers, featuring built-in Detours, optio
   <img src="img/Screenshot3.png" width="49%">
 </p>
 
+## Access
 
-### Demo Video:
-[![DevourX Video](https://img.youtube.com/vi/5AxVZ0n_Nic/0.jpg)](https://www.youtube.com/watch?v=5AxVZ0n_Nic)
+DevourModMenu is currently a private project.
 
----
+To request access:
 
-### Get Access & Support
-DevourX is currently a private project. To gain access, you need to follow these steps:
+1. Contact me on Discord before making a payment.
+2. Support the project through Buy Me a Coffee.
+3. After confirmation, access will be activated for your account.
 
-1. **Contact Me First:** Reach out to me directly via Discord before doing anything else.
-   - Discord: Jadis0x
-3. **Support the Project:** Make a small donation via Buy Me a Coffee to help maintain and update the menu.
-4. **Activation:** Once confirmed, I will grant your account/profile direct access to the project. *(No files will be sent manually).*
+Discord: `Jadis0x`
 
-<a href="https://www.buymeacoffee.com/Jadis0x"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150"></a>
+<a href="https://www.buymeacoffee.com/Jadis0x">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="150">
+</a>
 
----
 
-### Quick Start Installation
+## Installation
 
-1. **Get Authorized:** Make sure you have contacted me and received access authorization.
-2. **Locate Game Folder:** Find your Devour directory. (Default: `C:\Program Files (x86)\Steam\steamapps\common\Devour`)
-3. **Extract & Copy:** Place the authorized `version.dll` and `localization/` folder directly into the main game directory alongside `Devour.exe`.
-4. **Launch:** Start the game normally. DevourX will hook automatically.
-5. **Play:** Press `TAB` in-game to toggle the menu.
+## Troubleshooting
 
----
+### The menu does not appear
 
-### Language Support
-DevourX supports multiple languages including English, Turkish, Spanish, German, French, Korean, Simplified Chinese, Ukrainian, Russian, and Thai. The menu will prompt for your preference on first launch.
+Make sure that:
 
-**Want to add your own custom language?**
-1. Duplicate `localization/en-US.json` and rename it (e.g., `es-ES.json`).
-2. Translate the values (keep JSON keys and `%s` / `%d` intact).
-3. Add your language name to the `languages` array at the top of the file.
-4. Set it as default in `localization/config.json` to test your changes in-game.
+* Your account has been authorized.
+* The mod files are inside the main DEVOUR directory.
+* You launched the game through Steam.
+* Microsoft Visual C++ Redistributable is installed.
+* Windows Defender or another antivirus did not quarantine the files.
+* You are using the latest version.
 
----
+DLL-based mods may occasionally be detected as false positives because they load into the game process and install runtime hooks.
 
-### ⚠️ Troubleshooting
-**Menu not showing up?** Windows Defender or your antivirus might flag `version.dll` (a common false positive for injected DLLs). Simply restore the file from quarantine and add it to your exclusions, then relaunch the game.
+Only use files obtained directly from the official DevourModMenu release.
 
-### Uninstalling
-Simply close Devour and delete `version.dll` from your game folder.
 
----
-*Disclaimer: This project is for educational and research purposes. Use responsibly and avoid ruining public lobbies.*
+## Disclaimer
+
+DevourModMenu is intended for private modding, development, and research purposes.
+
+Do not use it to harass players or ruin public matches. You are responsible for how you use the software.
