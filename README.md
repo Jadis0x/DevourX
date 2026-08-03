@@ -10,6 +10,11 @@
 Ultimate mod menu for DEVOUR.
 </p>
 
+<img width="945" height="766" alt="ss1" src="https://github.com/user-attachments/assets/61c6d52a-0401-4caa-883e-7beda1cf85fe" />
+<img width="1890" height="1079" alt="ss2" src="https://github.com/user-attachments/assets/909a34f7-0734-47ad-a454-45d86710c65a" />
+<img width="1919" height="1079" alt="ss3" src="https://github.com/user-attachments/assets/812bebfe-fb02-4940-be24-3342a46396de" />
+
+
 ## Access
 
 DevourModMenu is a private project. The source code is not distributed.
